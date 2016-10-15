@@ -185,6 +185,7 @@ function Block(){
 	bBlock = new Sprite(scene, "block.jpg", 80, 40);
 	bBlock.maxSpeed = 10;
 	bBlock.minSpeed = -3;
+	bBlock.setSpeed(0);
 	//for testing, My laptop does not cooperate with the simple.js key down function
 	//bBlock.setSpeed(0);
 	//bBlock.setAngle(0);
