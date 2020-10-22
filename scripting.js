@@ -22,12 +22,12 @@ function init()
 	//creating the protagonist!
 	block = new Block();
 	MakeNotes();
-	EOGG = new Sound("E.ogg");
-	AOGG = new Sound("A.ogg");
-	DOGG = new Sound("D.ogg");
-	GOGG = new Sound("G.ogg");
-	BOGG = new Sound("B.ogg");
-	HighEOGG = new Sound("HighE.ogg");
+	EOGG = new Sound("./media/E.ogg");
+	AOGG = new Sound("./media/A.ogg");
+	DOGG = new Sound("./media/D.ogg");
+	GOGG = new Sound("./media/G.ogg");
+	BOGG = new Sound("./media/B.ogg");
+	HighEOGG = new Sound("./media/HighE.ogg");
             
     scene.start();
 } // end init

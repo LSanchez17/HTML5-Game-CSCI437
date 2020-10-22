@@ -1,7 +1,7 @@
 function MovingLowE()
 {
   //Creates a new sprite on the screen
-  cMovinglE = new Sprite(scene, "lowE.png", 14, 14);
+  cMovinglE = new Sprite(scene, "./media/lowE.png", 14, 14);
   //Sets the speed of the thing
   cMovinglE.setSpeed(7);
   cMovinglE.setPosition((Math.random()*(0-400) + 400),Math.random()*(0-400) + 400);
@@ -27,7 +27,7 @@ function MovingLowE()
 function MovingA()
 {
   //Creates a new sprite on the screen
-  cMovingA = new Sprite(scene, "A.jpg", 14, 14);
+  cMovingA = new Sprite(scene, "./media/A.jpg", 14, 14);
   //Sets the speed of the thing
   cMovingA.setSpeed(7);
   cMovingA.setPosition((Math.random()*(0-400) + 400),Math.random()*(0-400) + 400);
@@ -53,7 +53,7 @@ function MovingA()
 function MovingD()
 {
   //Creates a new sprite on the screen
-  cMovingD = new Sprite(scene, "D.jpg", 14, 14);
+  cMovingD = new Sprite(scene, "./media/D.jpg", 14, 14);
   //Sets the speed of the thing
   cMovingD.setSpeed(7);
   cMovingD.setPosition((Math.random()*(0-400) + 400),Math.random()*(0-400) + 400);
@@ -79,7 +79,7 @@ function MovingD()
 function MovingG()
 {
   //Creates a new sprite on the screen
-  cMovingG = new Sprite(scene, "G.jpg", 14, 14);
+  cMovingG = new Sprite(scene, "./media/G.jpg", 14, 14);
   //Sets the speed of the thing
   cMovingG.setSpeed(7);
   cMovingG.setPosition((Math.random()*(0-400) + 400),Math.random()*(0-400) + 400);
@@ -105,7 +105,7 @@ function MovingG()
 function MovingB()
 {
   //Creates a new sprite on the screen
-  cMovingB = new Sprite(scene, "B.jpg", 14, 14);
+  cMovingB = new Sprite(scene, "./media/B.jpg", 14, 14);
   //Sets the speed of the thing
   cMovingB.setSpeed(7);
   cMovingB.setPosition((Math.random()*(0-400) + 400),Math.random()*(0-400) + 400);
@@ -131,7 +131,7 @@ function MovingB()
 function MovingE()
 {
   //Creates a new sprite on the screen
-  cMovingE = new Sprite(scene, "E.jpg", 14, 14);
+  cMovingE = new Sprite(scene, "./media/E.jpg", 14, 14);
   //Sets the speed of the thing
   cMovingE.setSpeed(7);
   cMovingE.setPosition((Math.random()*(0-400) + 400),Math.random()*(0-400) + 400);
@@ -158,7 +158,7 @@ function MovingE()
 function ComboBreaker()
 {
   //Creates a new sprite on the screen
-  cComboBreaker = new Sprite(scene, "ComboBreaker.png", 25, 25);
+  cComboBreaker = new Sprite(scene, "./media/ComboBreaker.png", 25, 25);
   //Sets the speed of the thing
   cComboBreaker.setSpeed(10);
   cComboBreaker.setPosition((Math.random()*(0-400) + 400),Math.random()*(0-400) + 400);
@@ -182,7 +182,7 @@ function ComboBreaker()
 }
 
 function Block(){
-	bBlock = new Sprite(scene, "block.jpg", 80, 40);
+	bBlock = new Sprite(scene, "./media/block.jpg", 80, 40);
 	bBlock.maxSpeed = 10;
 	bBlock.minSpeed = -3;
 	bBlock.setSpeed(0);
